@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classNames</key>
+	<dict>
+		<key>CachePerformanceTests</key>
+		<dict>
+			<key>testCacheHit()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.046508</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>6 Dec 2017 at 20:42:29</string>
+				</dict>
+			</dict>
+			<key>testCacheMiss()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.020183</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>6 Dec 2017 at 20:42:29</string>
+				</dict>
+			</dict>
+			<key>testCacheWrite()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.099692</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>6 Dec 2017 at 20:42:29</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>ManagerPerformanceTests</key>
+		<dict>
+			<key>testDefaultManager()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.092192</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>6 Dec 2017 at 20:44:23</string>
+				</dict>
+			</dict>
+			<key>testWithoutMemoryCache()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.076627</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>6 Dec 2017 at 20:44:23</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

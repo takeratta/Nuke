@@ -14,7 +14,7 @@
     <a title="DataLoader Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">Nuke Docs</a> (86% documented)</p>
+        <p><a href="../index.html">Nuke Docs</a> (90% documented)</p>
         <p class="header-right"><a href="https://github.com/kean/nuke"><img src="../img/gh.png"/>View on GitHub</a></p>
       </div>
     </header>
@@ -38,13 +38,16 @@
                 <a href="../Classes/CancellationTokenSource.html">CancellationTokenSource</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/DataDecoderComposition.html">DataDecoderComposition</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Classes/DataLoader.html">DataLoader</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/DataLoader/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/Loader.html">Loader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Loader/Options.html">– Options</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Loader/Error.html">– Error</a>
@@ -70,6 +73,26 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Extensions/ImageView.html">ImageView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Nuke13cancelRequestyyXl3for_tF">cancelRequest(for:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Nuke9loadImagey10Foundation3URLV4with_AA6Target_p4intotF">loadImage(with:into:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Nuke9loadImageyAA7RequestV4with_AA6Target_p4intotF">loadImage(with:into:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Nuke9loadImagey10Foundation3URLV4with_yXl4intoyAA6ResultOySo7UIImageCG_Sbtc7handlertF">loadImage(with:into:handler:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Nuke9loadImageyAA7RequestV4with_yXl4intoyAA6ResultOySo7UIImageCG_Sbtc7handlertF">loadImage(with:into:handler:)</a>
               </li>
             </ul>
           </li>
@@ -107,6 +130,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DataDecoder.html">DataDecoder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DataDecoderComposition.html">DataDecoderComposition</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/Decompressor.html">Decompressor</a>
@@ -179,7 +205,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/kean/Nuke/tree/5.1/Sources/DataLoader.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/kean/Nuke/tree/6.0/Sources/DataLoader.swift#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -204,7 +230,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">configuration</span><span class="p">:</span> <span class="kt">URLSessionConfiguration</span> <span class="o">=</span> <span class="kt">DataLoader</span><span class="o">.</span><span class="n"><a href="../Classes/DataLoader.html#/s:4Nuke10DataLoaderC20defaultConfigurationSo010URLSessionE0CvZ">defaultConfiguration</a></span><span class="p">,</span> <span class="nv">validate</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Data</span><span class="p">,</span> <span class="kt">URLResponse</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Error</span><span class="p">?</span> <span class="o">=</span> <span class="kt">DataLoader</span><span class="o">.</span><span class="n">validate</span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">configuration</span><span class="p">:</span> <span class="kt">URLSessionConfiguration</span> <span class="o">=</span> <span class="kt">DataLoader</span><span class="o">.</span><span class="n"><a href="../Classes/DataLoader.html#/s:4Nuke10DataLoaderC20defaultConfigurationSo010URLSessionE0CvZ">defaultConfiguration</a></span><span class="p">,</span> <span class="nv">validate</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Data</span><span class="p">,</span> <span class="kt">URLResponse</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt"><a href="../Classes/DataLoader/Error.html">Error</a></span><span class="p">?</span> <span class="o">=</span> <span class="kt">DataLoader</span><span class="o">.</span><span class="n">validate</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -229,7 +255,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/kean/Nuke/tree/5.1/Sources/DataLoader.swift#L22-L25">Show on GitHub</a>
+                        <a href="https://github.com/kean/Nuke/tree/6.0/Sources/DataLoader.swift#L22-L25">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -260,7 +286,7 @@ as a <code>urlCache</code>.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/kean/Nuke/tree/5.1/Sources/DataLoader.swift#L29-L33">Show on GitHub</a>
+                        <a href="https://github.com/kean/Nuke/tree/6.0/Sources/DataLoader.swift#L29-L33">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -278,19 +304,20 @@ as a <code>urlCache</code>.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Validates <code>HTTP</code> responses by checking that the status code is 2xx. If
+it&rsquo;s not returns <code><a href="../Classes/DataLoader/Error.html#/s:4Nuke10DataLoaderC5ErrorO22statusCodeUnacceptableAESicAEmF">DataLoader.Error.statusCodeUnacceptable</a></code>.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">validate</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">response</span><span class="p">:</span> <span class="kt">URLResponse</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Error</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">validate</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">response</span><span class="p">:</span> <span class="kt">URLResponse</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt"><a href="../Classes/DataLoader/Error.html">Error</a></span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/kean/Nuke/tree/5.1/Sources/DataLoader.swift#L35-L38">Show on GitHub</a>
+                        <a href="https://github.com/kean/Nuke/tree/6.0/Sources/DataLoader.swift#L37-L40">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -308,7 +335,8 @@ as a <code>urlCache</code>.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Shared url cached used by a default <code>DataLoader</code>.</p>
+                        <p>Shared url cached used by a default <code>DataLoader</code>. The cache is
+initialized with 0 MB memory capacity and 150 MB disk capacity.</p>
 
                       </div>
                       <div class="declaration">
@@ -320,7 +348,7 @@ as a <code>urlCache</code>.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/kean/Nuke/tree/5.1/Sources/DataLoader.swift#L41">Show on GitHub</a>
+                        <a href="https://github.com/kean/Nuke/tree/6.0/Sources/DataLoader.swift#L44">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -350,7 +378,38 @@ as a <code>urlCache</code>.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/kean/Nuke/tree/5.1/Sources/DataLoader.swift#L48-L69">Show on GitHub</a>
+                        <a href="https://github.com/kean/Nuke/tree/6.0/Sources/DataLoader.swift#L51-L71">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Nuke10DataLoaderC5ErrorO"></a>
+                    <a name="//apple_ref/swift/Enum/Error" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Nuke10DataLoaderC5ErrorO">Error</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Errors produced by <code><a href="../Classes/DataLoader.html">DataLoader</a></code>.</p>
+
+                        <a href="../Classes/DataLoader/Error.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Error</span><span class="p">:</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Error</span><span class="p">,</span> <span class="kt">CustomDebugStringConvertible</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/kean/Nuke/tree/6.0/Sources/DataLoader.swift#L74-L86">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -360,7 +419,7 @@ as a <code>urlCache</code>.</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://github.com/kean" target="_blank" rel="external">kean</a>. All rights reserved. (Last updated: 2017-11-26)</p>
+          <p>&copy; 2017 <a class="link" href="https://github.com/kean" target="_blank" rel="external">kean</a>. All rights reserved. (Last updated: 2017-12-21)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

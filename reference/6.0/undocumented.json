@@ -1,22 +1,8 @@
 {
   "warnings": [
     {
-      "file": "/Users/kean/Develop/Source/Nuke/Sources/Cache.swift",
-      "line": 69,
-      "symbol": "Cache.defaultCostLimit()",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/kean/Develop/Source/Nuke/Sources/CancellationToken.swift",
-      "line": 11,
-      "symbol": "CancellationTokenSource.isCancelling",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/kean/Develop/Source/Nuke/Sources/DataDecoder.swift",
-      "line": 59,
+      "line": 64,
       "symbol": "DataDecoderComposition.decoders",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -29,22 +15,15 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/kean/Develop/Source/Nuke/Sources/DataLoader.swift",
-      "line": 35,
-      "symbol": "DataLoader.validate(data:response:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/kean/Develop/Source/Nuke/Sources/Loader.swift",
-      "line": 207,
+      "line": 270,
       "symbol": "Loader.Error.decodingFailed",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kean/Develop/Source/Nuke/Sources/Loader.swift",
-      "line": 208,
+      "line": 271,
       "symbol": "Loader.Error.processingFailed",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -78,6 +57,34 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/kean/Develop/Source/Nuke/Sources/Nuke.swift",
+      "line": 37,
+      "symbol": "loadImage(with:into:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kean/Develop/Source/Nuke/Sources/Nuke.swift",
+      "line": 42,
+      "symbol": "loadImage(with:into:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kean/Develop/Source/Nuke/Sources/Nuke.swift",
+      "line": 47,
+      "symbol": "loadImage(with:into:handler:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kean/Develop/Source/Nuke/Sources/Nuke.swift",
+      "line": 52,
+      "symbol": "loadImage(with:into:handler:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/kean/Develop/Source/Nuke/Sources/Processor.swift",
       "line": 43,
       "symbol": "AnyProcessor.init(_:)",
@@ -86,36 +93,8 @@
     },
     {
       "file": "/Users/kean/Develop/Source/Nuke/Sources/Request.swift",
-      "line": 12,
-      "symbol": "Request.urlRequest",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/kean/Develop/Source/Nuke/Sources/Request.swift",
-      "line": 36,
+      "line": 45,
       "symbol": "Request.MemoryCacheOptions.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/kean/Develop/Source/Nuke/Sources/Request.swift",
-      "line": 52,
-      "symbol": "Request.progress",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/kean/Develop/Source/Nuke/Sources/Request.swift",
-      "line": 63,
-      "symbol": "Request.init(url:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/kean/Develop/Source/Nuke/Sources/Request.swift",
-      "line": 68,
-      "symbol": "Request.init(urlRequest:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }

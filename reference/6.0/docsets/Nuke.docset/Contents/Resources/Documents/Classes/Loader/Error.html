@@ -14,7 +14,7 @@
     <a title="Error Enumeration Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../../index.html">Nuke Docs</a> (86% documented)</p>
+        <p><a href="../../index.html">Nuke Docs</a> (90% documented)</p>
         <p class="header-right"><a href="https://github.com/kean/nuke"><img src="../../img/gh.png"/>View on GitHub</a></p>
       </div>
     </header>
@@ -38,13 +38,16 @@
                 <a href="../../Classes/CancellationTokenSource.html">CancellationTokenSource</a>
               </li>
               <li class="nav-group-task">
-                <a href="../../Classes/DataDecoderComposition.html">DataDecoderComposition</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../../Classes/DataLoader.html">DataLoader</a>
               </li>
               <li class="nav-group-task">
+                <a href="../../Classes/DataLoader/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../../Classes/Loader.html">Loader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/Loader/Options.html">– Options</a>
               </li>
               <li class="nav-group-task">
                 <a href="../../Classes/Loader/Error.html">– Error</a>
@@ -70,6 +73,26 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../../Extensions/ImageView.html">ImageView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Functions.html#/s:4Nuke13cancelRequestyyXl3for_tF">cancelRequest(for:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Functions.html#/s:4Nuke9loadImagey10Foundation3URLV4with_AA6Target_p4intotF">loadImage(with:into:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Functions.html#/s:4Nuke9loadImageyAA7RequestV4with_AA6Target_p4intotF">loadImage(with:into:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Functions.html#/s:4Nuke9loadImagey10Foundation3URLV4with_yXl4intoyAA6ResultOySo7UIImageCG_Sbtc7handlertF">loadImage(with:into:handler:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Functions.html#/s:4Nuke9loadImageyAA7RequestV4with_yXl4intoyAA6ResultOySo7UIImageCG_Sbtc7handlertF">loadImage(with:into:handler:)</a>
               </li>
             </ul>
           </li>
@@ -109,6 +132,9 @@
                 <a href="../../Structs/DataDecoder.html">DataDecoder</a>
               </li>
               <li class="nav-group-task">
+                <a href="../../Structs/DataDecoderComposition.html">DataDecoderComposition</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../../Structs/Decompressor.html">Decompressor</a>
               </li>
               <li class="nav-group-task">
@@ -144,7 +170,7 @@
             <h1>Error</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Error</span><span class="p">:</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Error</span></code></pre>
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Error</span><span class="p">:</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Error</span><span class="p">,</span> <span class="kt">CustomDebugStringConvertible</span></code></pre>
 
                 </div>
               </div>
@@ -180,7 +206,7 @@ errors from underlying <code><a href="../../Protocols/DataLoading.html">DataLoad
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/kean/Nuke/tree/5.1/Sources/Loader.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/kean/Nuke/tree/6.0/Sources/Loader.swift#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -214,7 +240,40 @@ errors from underlying <code><a href="../../Protocols/DataLoading.html">DataLoad
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/kean/Nuke/tree/5.1/Sources/Loader.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/kean/Nuke/tree/6.0/Sources/Loader.swift#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s28CustomDebugStringConvertibleP16debugDescriptionSSv"></a>
+                    <a name="//apple_ref/swift/Property/debugDescription" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s28CustomDebugStringConvertibleP16debugDescriptionSSv">debugDescription</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">debugDescription</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/kean/Nuke/tree/6.0/Sources/Loader.swift#L273-L278">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -224,7 +283,7 @@ errors from underlying <code><a href="../../Protocols/DataLoading.html">DataLoad
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://github.com/kean" target="_blank" rel="external">kean</a>. All rights reserved. (Last updated: 2017-11-26)</p>
+          <p>&copy; 2017 <a class="link" href="https://github.com/kean" target="_blank" rel="external">kean</a>. All rights reserved. (Last updated: 2017-12-21)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
